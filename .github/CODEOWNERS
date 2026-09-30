@@ -1,0 +1,10 @@
+# TeamAI 团队仓库 AgentTM 的审核归属（CODEOWNERS）
+#
+# 与 teamai.yaml 的 reviewers 字段是两套互补机制，别混淆：
+#   - teamai.yaml > reviewers          -> TeamAI 创建 PR 时「请求」这些人审核（软提醒）
+#   - 本文件 + 分支保护 Require review from Code Owners -> 「强制」必须这些人批准才能合并（硬闸门）
+#
+# 注意：这里只能写 GitHub 用户名（@login），不能写邮箱。
+# 新增管理员：在下方追加用户名，同时把 teamai.yaml 的 reviewers 也补上。
+
+*       @liyanginchina
