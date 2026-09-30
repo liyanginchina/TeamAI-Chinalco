@@ -1,5 +1,5 @@
-team: my-team
-description: TeamAI shared resources
+team: AgentTM
+description: AgentTM — 团队共享 AI 能力：技能 / 规则 / 文档 / 环境
 repo: https://github.com/liyanginchina/TeamAI-Chinalco.git
 provider: github
 sharing:
@@ -9,3 +9,5 @@ sharing:
     localDir: ~/.teamai/docs
   env:
     injectShellProfile: true
+  recall:
+    enabled: true
