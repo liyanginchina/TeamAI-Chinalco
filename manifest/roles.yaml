@@ -1,0 +1,86 @@
+version: 1
+roles:
+  - id: pm
+    description: 项目管理
+    resources:
+      knowledge:
+        - common
+        - pm
+      skills:
+        - common
+        - pm
+      agents:
+        - common
+        - pm
+  - id: product
+    description: 产品经理
+    resources:
+      knowledge:
+        - common
+        - product
+      skills:
+        - common
+        - product
+      agents:
+        - common
+        - product
+  - id: architect
+    description: 架构师
+    resources:
+      knowledge:
+        - common
+        - architect
+      skills:
+        - common
+        - architect
+      agents:
+        - common
+        - architect
+  - id: dev-fe
+    description: 前端开发
+    resources:
+      knowledge:
+        - common
+        - dev-fe
+      skills:
+        - common
+        - dev-fe
+      agents:
+        - common
+        - dev-fe
+  - id: dev-be
+    description: 后端开发
+    resources:
+      knowledge:
+        - common
+        - dev-be
+      skills:
+        - common
+        - dev-be
+      agents:
+        - common
+        - dev-be
+  - id: ops
+    description: 运维
+    resources:
+      knowledge:
+        - common
+        - ops
+      skills:
+        - common
+        - ops
+      agents:
+        - common
+        - ops
+  - id: qa
+    description: 测试
+    resources:
+      knowledge:
+        - common
+        - qa
+      skills:
+        - common
+        - qa
+      agents:
+        - common
+        - qa
