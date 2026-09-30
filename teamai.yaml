@@ -2,6 +2,8 @@ team: AgentTM
 description: AgentTM — 团队共享 AI 能力：技能 / 规则 / 文档 / 环境
 repo: https://github.com/liyanginchina/TeamAI-Chinalco.git
 provider: github
+reviewers:
+  - liyanginchina
 sharing:
   rules:
     enforced: []
